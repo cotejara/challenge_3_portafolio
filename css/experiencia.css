@@ -1,0 +1,201 @@
+/* experiencia*/
+
+section.experience{
+    background: #F5F5F5;
+    padding: 64px 120px;
+}
+
+section.experience h2.experience__section__title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom:1rem;
+}
+
+section.experience div.experiencie__box{
+    display: inline-flex;
+    align-items: center;    
+}
+
+section.experience div.experiencie__box h2{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.experience div.experiencie__box img.experience__img_encriptador{
+    width: 69%;
+    border: #2A7AE4 solid 1px;
+    padding: 0;
+    margin-bottom: 2rem;
+
+}
+
+section.experience div.experiencie__box h3{
+    width: 368px;
+    height: 19px;
+    margin-left: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+section.experience div.experience__description span.experience__repo button.experiencia__botao--repo{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 8rem;
+    color: #2A7AE4;
+    border-style:solid;
+    border-color: #2A7AE4;
+    border-radius: 15px;
+    padding: 3%;
+    background-color: white
+    
+}
+
+section.experience div.experience__description span.experience__repo button.experiencia__botao--repo:hover{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+
+}
+
+section.experience div.experience__description span.experience__demo button.experience__botao--demo:hover{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+
+}
+
+section.experience div.experience__description span.experience__demo button.experience__botao--demo{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 8rem;
+    color: #2A7AE4;
+    border-style:solid;
+    border-color: #2A7AE4;
+    padding: 3%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+section.experience div.experiencie__box img.experience__img_ahorcado{
+    width: 69%;
+    border: #2A7AE4 solid 1px;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+section.experience div.experience__ahorcado {
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media (max-width: 768px) {
+
+    section.experience div.experiencie__box img.experience__img_encriptador{
+        border: #2A7AE4 solid 1px;
+        padding: 0;
+        margin-bottom: 2rem;
+        width: 704px;
+        height: 320px;
+        background: url(ahorcado.png);
+        border-radius: 0px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    section.experience div.experiencie__box{
+        display:block;
+        align-items: center;   
+        margin-left: -15%; 
+    }
+
+    section.experience div.experiencie__box h2{
+        width: 704px;
+        height: 19px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+        margin-bottom: 0%;
+    }
+
+    section.experience div.experiencie__box h3{
+        width: 704px;
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+    }
+
+    section.experience div.experience__description span.experience__repo button.experiencia__botao--repo{
+        padding: 16px;
+        width: 105px;
+        height: 51px;
+        color: #2A7AE4;
+        background-color: white;
+        border-color: #2A7AE4;
+        border-style:solid;
+        border-radius: 15px;                
+    }
+
+    section.experience div.experience__description span.experience__demo button.experience__botao--demo{
+        padding: 16px;
+        width: 105px;
+        height: 51px;
+        color: #2A7AE4;
+        background-color: white;
+        border-color: #2A7AE4;
+        border-style:solid;
+        border-radius: 15px;  
+        margin-bottom: 2rem;
+    }
+
+    section.experience div.experiencie__box img.experience__img_ahorcado{
+        border: #2A7AE4 solid 1px;
+        padding: 0;
+        margin-bottom: 2rem;
+        width: 704px;
+        height: 320px;
+        background: url(ahorcado.png);
+        border-radius: 0px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    section.experience div.experience__ahorcado {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    section.experience div.experience__ahorcado  div.experience__info h2.experience__title{
+        margin-left: 10%;
+
+    }
+
+    section.experience div.experience__ahorcado  div.experience__info h3.experience__text{
+         margin-left: 10%; 
+    }
+
+    section.experience div.experience__ahorcado  div.experience__info div.experience__description{
+        margin-left: 7%; 
+
+    }
+
+
+}

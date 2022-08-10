@@ -1,0 +1,119 @@
+/*Contacto*/
+
+section.formcontato {     
+    padding: 44px 0;
+    background: var(--color_fondo_2);
+}
+
+section.formcontato div.formcontato__contacto{
+    display: flex; 
+    justify-content: center; 
+    margin-right: 0%;
+    width: 40%;
+    height: 60%;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__izquierda{
+    display: flex;
+    
+}
+
+/*  section.formcontato div.formcontato__contacto div.formcontato__izquierda img{*/
+
+section.formcontato div.formcontato__izquierda img.formcontato__img{   
+    width: 150%;    
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-right: 3%;
+    
+}
+
+
+section.formcontato div.formcontato__text{
+    display: block;
+    width: 35%;
+    padding-left: 30%;
+}
+
+
+section.formcontato div.formcontato__contacto div.formcontato__text h2.formcontato__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 1rem;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text h3.formcontato__subtext{
+    width: 656px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+}
+
+
+section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form {
+    margin-top: 3%;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form input.formcontato__input {
+    width: 656px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 1% 0% 5% 0%;
+    
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form textarea.formcontato__textarea {
+    border-radius: 15px;
+}
+
+
+
+section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form button.formcontato__botao {
+    margin-top: 1rem;
+    color: #2A7AE4;
+    border-style:solid;
+    border-color: #2A7AE4;
+    padding: 3%;
+    background-color: white;
+    border-style:solid;
+    border-radius: 15px;  
+    width: 105px;
+    height: 51px;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form button.formcontato__botao:hover{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+
+}
+
+@media (max-width: 768px) {
+
+    section.formcontato div.formcontato__izquierda img.formcontato__img{
+        display: none;
+    }
+
+    section.formcontato div.formcontato__contacto{
+        display: block;
+    }
+
+
+
+
+
+}
+
+
+

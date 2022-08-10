@@ -1,0 +1,56 @@
+/*Sección About*/
+
+section.about {
+
+    padding: 64px 120px;
+    background: #EAF2FD;
+}
+
+section.about div.about__container{
+    width: 700px;
+}
+
+section.about div.about__container h3.about__title{
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+section.about div.about__container p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;  /*estaciado entre lineas*/
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    section.about{        
+        width: 100%;        
+    }
+
+    section.about div.about__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;        
+        width: 768px;
+        height: 200px; 
+        margin-left: -5rem;
+
+    }
+
+    section.about div.about__container h3{
+        width: 328px;
+        height: 52px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: #585454;
+        
+    }
+
+
+}
